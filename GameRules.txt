@@ -1,0 +1,28 @@
+In a graph of length m * n:
+
+	2 players:
+		each with a start position and end postion and color
+	Equal number of cars each, say 20
+	Each car:
+		has a path of length k from start position to end position
+		does not deviate from path
+		cannot hit another car, must wait
+		2 states, moving or stationary
+		2 colors for 2 different players
+	x lights:
+		placed at random intersections in the graph
+		2 states: green and red
+			green starts flow, red stops it
+			state changes on click from user
+			state change delay (3 seconds?) before can change again
+
+	At start of game:
+		All lights are green
+		Cars start to flow from respective spawn points(players start position)
+	End game:
+		When a player gets all of their cars to the end of the path
+
+
+Questions:
+	Are cars spawning from one position for each player, or from random positions?
+
